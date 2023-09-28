@@ -1,0 +1,10 @@
+       IDENTIFICATION DIVISION.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       COPY "C:\COBOL\BIN\PROM\PAN.wks".
+       SCREEN SECTION.
+       COPY "C:\COBOL\BIN\PROM\PAN.ss".
+       PROCEDURE DIVISION.
+           DISPLAY G-PAN.
+           ACCEPT G-PAN.
+           STOP RUN.
